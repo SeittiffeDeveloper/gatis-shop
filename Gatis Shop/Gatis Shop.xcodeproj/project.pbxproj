@@ -11,6 +11,7 @@
 		FF13375125CA637B007A427E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF13375025CA637B007A427E /* ContentView.swift */; };
 		FF13375325CA637B007A427E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF13375225CA637B007A427E /* Assets.xcassets */; };
 		FF13375625CA637B007A427E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF13375525CA637B007A427E /* Preview Assets.xcassets */; };
+		FFC3354525CA7E2D0060A693 /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FFC3354425CA7D010060A693 /* Montserrat-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		FF13375225CA637B007A427E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FF13375525CA637B007A427E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FF13375725CA637B007A427E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFC3354425CA7D010060A693 /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +54,7 @@
 		FF13374D25CA637A007A427E /* Gatis Shop */ = {
 			isa = PBXGroup;
 			children = (
+				FFC3354325CA7CCF0060A693 /* fonts */,
 				FF13374E25CA637B007A427E /* Gatis_ShopApp.swift */,
 				FF13375025CA637B007A427E /* ContentView.swift */,
 				FF13375225CA637B007A427E /* Assets.xcassets */,
@@ -67,6 +70,14 @@
 				FF13375525CA637B007A427E /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FFC3354325CA7CCF0060A693 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				FFC3354425CA7D010060A693 /* Montserrat-Regular.ttf */,
+			);
+			path = fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +137,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FFC3354525CA7E2D0060A693 /* Montserrat-Regular.ttf in Resources */,
 				FF13375625CA637B007A427E /* Preview Assets.xcassets in Resources */,
 				FF13375325CA637B007A427E /* Assets.xcassets in Resources */,
 			);
